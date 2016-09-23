@@ -62,7 +62,6 @@ function sumAndMultiply(a,b,c){ //eslint-disable-line
   var messageSum = a + ' and ' + b + ' and ' + c + ' sum to ' + sumResult + '.';
   var output = [sumResult, multResult, messageSum, messageMultiply];
   return output;
-
 }
 
 
@@ -115,7 +114,6 @@ function multiplyArray(testArray){ //eslint-disable-line
   var message = 'The numbers ' + testArray + ' have a product of ' + multAnswer + '.';
   var output = [multAnswer, message];
   return output;
-
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
